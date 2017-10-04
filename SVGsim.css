@@ -1,0 +1,353 @@
+
+body{
+    background-color: #EAEAEA;
+}
+
+.headSpan{
+    position: relative;
+    display: block;
+    width: 400px;
+    height: 30px;
+    color: #494949;
+    font-family: sans-serif;
+    font-size: 26px;
+    margin: 50px auto 0 auto;
+    background-color: transparent;
+    text-align: center;
+    text-shadow: 2px 2px 6px #9E9E9E;
+}
+
+div#mainDiv{
+    display: block;
+    position: relative;
+    width: 1000px;
+    height: 260px;
+    margin: 30px auto 50px auto;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #494949;
+    box-shadow: 5px 5px 10px #919191;
+}
+svg#mainSVGdiv{
+    display: block;
+    position: relative;
+    float: left;
+    width: 1000px;
+    height: 100px;
+    background-color: #383838;
+}
+rect#simBody{
+    fill: url(#grad1);
+    stroke: #69E590;
+    stroke-width: 2;
+}
+div.centerIndicator{
+    display: block;
+    position: relative;
+    float: left;
+    width: 499px;
+    height: 10px;
+    margin: 0;
+    padding: 0;
+    border-right: 2px solid #AAAAAA;
+    background-color: transparent;
+}
+
+div#ctrlBar{
+    float: left;
+    display: block;
+    position: relative;
+    width: 1000px;
+    height: 110px;
+    margin: 5px 0 0 0;
+    padding: 0 0 0 0;
+    background-color: transparent;
+}
+
+.funcDiv{
+    float: left;
+    display: block;
+    position: relative;
+    width: 750px;
+    height: 20px;
+    margin: 5px 110px 5px 119px;
+    padding: 5px;
+    border: 1px solid #898989;
+    border-radius: 5px;
+    background-color: #565656;
+}
+.funcLabel{
+    float: left;
+    display: block;
+    position: relative;
+    width: auto;
+    height: 25px;
+    margin: 0;
+    padding: 2px 2px 0 2px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #AAAAAA;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.funcInput{
+    float: left;
+    display: block;
+    position: relative;
+    width: 500px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    background-color: #686868;
+    color: #69E590;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.fScaleInput{
+    float: left;
+    display: block;
+    position: relative;
+    width: 60px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    background-color: #686868;
+    color: #69E590;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.separatorDiv{
+    float: left;
+    display: block;
+    position: relative;
+    width: 1000px;
+    height: 1px;
+    margin: 10px 0 10px 0;
+    padding: 0;
+    border-top: 1px solid #303030; 
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    background-color: #6D6D6D;
+}
+
+.sepDiv{
+    float: left;
+    display: block;
+    position: relative;
+    width: 1px;
+    height: 25px;
+    margin: 9px 0 0 0;
+    padding: 0;
+    border-top: 1px solid #898989;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    background-color: #565656;
+}
+.PPRbtns{
+    float: left;
+    display: block;
+    position: relative;
+    width: 70px;
+    height: 25px;
+    margin: 9px 0 0 0;
+    padding: 0;
+    border-top: 1px solid #898989;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    background-color: #565656;
+    outline: none;
+    color: #AAAAAA;
+    font-family: sans-serif;
+    font-size: 14px;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+button:hover.PPRbtns{
+    color: #69E590;
+    border-top: 1px solid #69E590;
+    background-color: #3A3A3A;
+    height: 30px;
+}
+button:active.PPRbtns{
+    border-top: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.timeDiv{
+    float: left;
+    display: block;
+    position: relative;
+    width: auto;
+    height: 20px;
+    margin: 5px 0 0 10px;
+    padding: 5px;
+    border: 1px solid #898989;
+    border-radius: 5px;
+    background-color: #565656;
+}
+.timeLabel{
+    float: left;
+    display: block;
+    position: relative;
+    width: auto;
+    height: 25px;
+    margin: 0;
+    padding: 2px 2px 0 2px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #AAAAAA;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.tInput{
+    float: left;
+    display: block;
+    position: relative;
+    width: 60px;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    background-color: #686868;
+    color: #69E590;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.AnimDiv{
+    float: left;
+    display: block;
+    position: relative;
+    width: auto;
+    height: 20px;
+    margin: 5px 0 0 10px;
+    padding: 5px;
+    border: 1px solid #898989;
+    border-radius: 5px;
+    background-color: #565656;
+}
+.animLabel{
+    float: left;
+    display: block;
+    position: relative;
+    width: auto;
+    height: 25px;
+    margin: 0;
+    padding: 2px 2px 0 2px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #AAAAAA;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.animInput{
+    float: left;
+    display: block;
+    position: relative;
+    width: 45px;
+    height: 20px;
+    margin: 0 0 0 0;
+    padding: 0;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    background-color: #686868;
+    color: #69E590;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.BodywDiv{
+    float: left;
+    display: block;
+    position: relative;
+    width: auto;
+    height: 20px;
+    margin: 5px 0 0 10px;
+    padding: 5px;
+    border: 1px solid #898989;
+    border-radius: 5px;
+    background-color: #565656;
+}
+.bodywLabel{
+    float: left;
+    display: block;
+    position: relative;
+    width: auto;
+    height: 25px;
+    margin: 0;
+    padding: 2px 2px 0 2px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #AAAAAA;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.bodywInput{
+    float: left;
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 20px;
+    margin: 0 5px 0 0;
+    padding: 0;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    background-color: #686868;
+    color: #69E590;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.loadBarHolderDiv{
+    float: left;
+    display: block;
+    position: relative;
+    width: 1000px;
+    height: 5px;
+    margin: 10px 0 10px 0;
+    padding: 0;
+    background-color: transparent;
+}
+#loadBar{
+    float: left;
+    display: block;
+    position: relative;
+    width: 0px;
+    height: 2px;
+    margin: 0;
+    padding: 0;
+    background-color: #69E590;
+}
+
+.whomadethis {
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	color: #494949;
+	font-family: sans-serif;
+	text-shadow: 2px 2px 6px #9E9E9E;
+}
